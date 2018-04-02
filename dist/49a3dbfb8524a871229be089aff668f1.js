@@ -138,11 +138,13 @@ module.exports = reloadCSS;
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./images\\My_selfie.JPG":[["88c6a4301d3f3de760775ea19618d87f.JPG",8],8],"_css_loader":7}],6:[function(require,module,exports) {
+},{"./images\\My_selfie.JPG":[["88c6a4301d3f3de7,6:[function(require,module,exports) {
+'use s,6:[function(require,module,exports) {
 'use strict';
 
-require('../scss/main.scss');
-},{"../scss/main.scss":5}],16:[function(require,module,exports) {
+require('..,10:[function(require,module,exports) {
+
+var ,10:[function(require,module,exports) {
 
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
@@ -164,7 +166,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '54162' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '61134' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -262,10 +264,8 @@ function hmrAccept(bundle, id) {
   }
 
   return getParents(global.require, id).some(function (id) {
-    return hmrAccept(global.require, id);
-  });
-}
-},{}],17:[function(require,module,exports) {
+    return,12:[function(require,module,exports) {
+var g,12:[function(require,module,exports) {
 var getBundleURL = require('./bundle-url').getBundleURL;
 
 function loadBundlesLazy(bundles) {
@@ -342,9 +342,8 @@ LazyPromise.prototype.then = function (onSuccess, onError) {
 };
 
 LazyPromise.prototype.catch = function (onError) {
-  return this.promise || (this.promise = new Promise(this.executor).catch(onError));
-};
-},{"./bundle-url":9}],0:[function(require,module,exports) {
-var b=require(17);
-},{}]},{},[16,0,6])
+  return this.promise || (this.promise = new Promise(this.execut,0:[function(require,module,exports) {
+var b=,0:[function(require,module,exports) {
+var b=require(12);
+},{}]},{},[10,0,6])
 //# sourceMappingURL=/dist/49a3dbfb8524a871229be089aff668f1.map68f1.map
