@@ -71,7 +71,7 @@ require = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({9:[function(require,module,exports) {
+})({11:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -101,7 +101,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],7:[function(require,module,exports) {
+},{}],9:[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -132,19 +132,17 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":9}],5:[function(require,module,exports) {
+},{"./bundle-url":11}],5:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./images\\My_selfie.JPG":[["88c6a4301d3f3de7,6:[function(require,module,exports) {
-'use s,6:[function(require,module,exports) {
+},{"./images\\My_selfie.JPG":10,"_css_loader":9}],6:[function(require,module,exports) {
 'use strict';
 
-require('..,10:[function(require,module,exports) {
-
-var ,10:[function(require,module,exports) {
+require('../scss/main.scss');
+},{"../scss/main.scss":5}],27:[function(require,module,exports) {
 
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
@@ -166,7 +164,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '61134' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '65270' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -264,8 +262,10 @@ function hmrAccept(bundle, id) {
   }
 
   return getParents(global.require, id).some(function (id) {
-    return,12:[function(require,module,exports) {
-var g,12:[function(require,module,exports) {
+    return hmrAccept(global.require, id);
+  });
+}
+},{}],28:[function(require,module,exports) {
 var getBundleURL = require('./bundle-url').getBundleURL;
 
 function loadBundlesLazy(bundles) {
@@ -342,8 +342,9 @@ LazyPromise.prototype.then = function (onSuccess, onError) {
 };
 
 LazyPromise.prototype.catch = function (onError) {
-  return this.promise || (this.promise = new Promise(this.execut,0:[function(require,module,exports) {
-var b=,0:[function(require,module,exports) {
-var b=require(12);
-},{}]},{},[10,0,6])
-//# sourceMappingURL=/dist/49a3dbfb8524a871229be089aff668f1.map68f1.map
+  return this.promise || (this.promise = new Promise(this.executor).catch(onError));
+};
+},{"./bundle-url":11}],0:[function(require,module,exports) {
+var b=require(28);b.load([["88c6a4301d3f3de760775ea19618d87f.JPG",10],},{},[27,0},{}
+//# sou
+//# sourceMappingURL=/dist/49a3dbfb8524a871229be089aff668f1.map
