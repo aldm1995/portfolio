@@ -60,3 +60,164 @@
         
     }
 }
+
+@media (min-width: 0px) and (max-width: 767px) { 
+	body,
+	html {
+		height: auto;
+	}
+	.resume {
+		.menu-icon {
+			top: -3px;
+			right: 20px;
+			color: white;
+			
+			.fas {
+				color: white;
+				
+			}
+		}
+		
+		.info-section {
+			//display: none;
+			padding: 10px 30px;
+			//left: 0;
+			//bottom: 0;
+			//top: 0;
+			position: static;
+			//width: 35%;
+			.logo {
+				height: 50px;
+				width: 70px;
+				font-size: 1rem;
+			}
+			
+			.info-box {
+				display: none;
+			}
+		}
+		
+		.content-area {
+			height: auto !important;
+			margin-left: 0;
+			width: 100%;
+			
+			&:after {
+				content: "";
+				display: table;
+				clear: both;
+			}
+			.scroll-section {
+				padding: 50px 20px;
+				width: 100%;
+				height: auto;
+				overflow: auto;
+			}
+			
+			.category {
+				width: 100%;
+				
+				.xp-section {
+					grid-template-columns: 1fr;
+				}
+			}
+		}
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.resume {
+		.info-section {
+			width: 30%;
+			padding: 56px 30px;
+			
+			 .icon-section {
+				 a {
+					font-size: 1.4rem; 
+				 }
+			}
+		}
+		.content-area {
+			height: auto;
+			width: 70%;
+			margin-left: 30%;
+			
+			&:after {
+				content: "";
+				display: table;
+				clear: both;
+			}
+			.category {
+				width: 100%;
+				
+				.xp-section {
+					grid-template-columns: 1fr;
+				}
+			}
+		}
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	.resume {
+		.info-section {
+			width: 30%;
+			
+			 .icon-section {
+				 a {
+					font-size: 1.4rem; 
+				 }
+			}
+		}
+		.content-area {
+			height: auto;
+			width: 70%;
+			margin-left: 30%;
+			
+			&:after {
+				content: "";
+				display: table;
+				clear: both;
+			}
+		}
+	}
+	
+	.resume {
+		
+		.content-area {
+			height: auto;
+			
+			&:after {
+				content: "";
+				display: table;
+				clear: both;
+			}
+		}
+	}
+}
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+	
+	.resume {
+		.info-section {
+			width: 30%;
+			
+			 .icon-section {
+				 a {
+					font-size: 1.4rem; 
+				 }
+			}
+		}
+		
+		.content-area {
+			
+		}
+	}
+}
+
+@media (min-width: 1500px) {
+	
+	.resume {
+		.content-area {
+			
+		}
+	}
+}
