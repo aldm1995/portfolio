@@ -1,0 +1,29 @@
+.menu-icon {
+	
+	#menu {
+		width: 15%;
+		
+		.main-nav {
+			box-sizing: border-box;
+			
+			li {
+				position: relative;
+				padding-left: -5px;
+				justify-content: center;
+			}
+		}
+		
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			
+			li {
+				border-bottom: 1px dotted white;
+			}
+		}
+	}
+}
+
+
+

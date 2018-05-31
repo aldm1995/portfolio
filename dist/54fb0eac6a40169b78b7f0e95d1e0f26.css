@@ -106,7 +106,10 @@ html {
 #menu {
   background: #4b21ff;
   position: fixed;
-  width: 100%;
+  margin-top: 90px;
+  margin-left: 75px;
+  border: 1px solid black;
+  height: 35%;
   top: 0;
   bottom: 0;
   transform: translate3d(-100%, 0, 0);
@@ -205,7 +208,7 @@ html {
       left: -150px;
       width: 375px;
       height: calc(100% - 112px);
-      background: url("88c6a4301d3f3de760775ea19618d87f.JPG") center;
+      background: url("e4a23d6b86f8e320dcaadd8fe0f78a65.jpg") center;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -617,19 +620,6 @@ html {
     padding: 20% 60px 0;
     max-width: 800px; } }
 
-@media (min-width: 1500px) {
-  .work .content-area .img-container {
-    padding: 56px 20px 0;
-    float: left; }
-    .work .content-area .img-container .form-section {
-      left: -250px;
-      width: 500; }
-  .work .content-area .work-section {
-    width: 70%;
-    float: left;
-    padding: 20% 60px 0;
-    max-width: 800px; } }
-
 .contact .info-section {
   padding: 54px;
   width: 35%; }
@@ -836,3 +826,18 @@ html {
     float: left;
     padding: 20% 60px 0;
     max-width: 800px; } }
+
+.menu-icon #menu {
+  width: 15%; }
+  .menu-icon #menu .main-nav {
+    box-sizing: border-box; }
+    .menu-icon #menu .main-nav li {
+      position: relative;
+      padding-left: -5px;
+      justify-content: center; }
+  .menu-icon #menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .menu-icon #menu ul li {
+      border-bottom: 1px dotted white; }
